@@ -26,7 +26,7 @@ function snail(arr) {
       arrangedArr.push(arr[i].pop());
     }
 
-    // Remove each element from bottom row
+    // Remove each element from bottom row and reverse order as it's going backwards
     if (arr.length > 0) {
       arrangedArr.push(...arr.pop().reverse());
     }
