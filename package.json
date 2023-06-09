@@ -1,0 +1,14 @@
+{
+  "name": "codewars-my-solutions",
+  "version": "1.0.0",
+  "description": "my solutions to codewars problems and katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "lee kirkham",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

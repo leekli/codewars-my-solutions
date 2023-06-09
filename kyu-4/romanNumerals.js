@@ -52,11 +52,9 @@ function fromRoman(str) {
 
   for (let i = 0; i < str.length; i++) {
     if (numeralsArray.includes(str[i] + str[i + 1])) {
-      //   console.log(str[i], str[i + 1], romanNumberalLookup[str[i] + str[i + 1]]);
       finalRomanNumeral += romanNumberalLookup[str[i] + str[i + 1]];
       i++;
     } else if (numeralsArray.includes(str[i])) {
-      //   console.log(str[i], romanNumberalLookup[str[i]]);
       finalRomanNumeral += romanNumberalLookup[str[i]];
     }
   }
